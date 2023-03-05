@@ -1,13 +1,20 @@
 import React from "react";
 
+
+// const Text = (props) => {
+//       <div className="footer-text">
+//         <p>{props.text}</p>
+//       </div>
+// }
+
 const Footer = () => {
   return (
     <>
-      <footer id="footer">
-        <div className="container-fluid bg-dark">
-          <p>© Copyright 2023</p>
-        </div>        
-       </footer>
+     <div className="container-fluid footer bg-dark">
+     <div className="footer-text">
+        <p>Copyright@ Your Website 2019</p>
+        </div>
+     </div>
     </>
   );
 };

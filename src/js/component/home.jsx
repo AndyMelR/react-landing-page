@@ -3,6 +3,7 @@ import Navbar from "./navbar.jsx";
 import Jumbotron from "./jumbotron.jsx";
 import Cards from "./cards.jsx";
 import Footer from "./footer.jsx";
+import "../../styles/index.css";
 
 
 
@@ -11,14 +12,17 @@ import Footer from "./footer.jsx";
 const Home = () => {
 	return (
 		<>
-		<div className="container-fluid">
+			<div>
 			<Navbar/>
-			<div id="container-body">
-			<Jumbotron />
-			<Cards />
 			</div>
-			<Footer />
-    	</div>
+			<div class="container" id="container-body">
+				<Jumbotron />
+				<Cards />
+			</div>
+			<div>
+				<Footer />
+			</div>
+    	
 		</>
 	);
 };

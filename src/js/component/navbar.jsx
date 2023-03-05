@@ -38,15 +38,15 @@ const Navbar = () => {
         <nav id="navbar-container" className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <Brand brand="Start Bootstrap" />
           <ToggleButton />
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul className="navbar-nav ms-auto">
-              <Navitem item="Home" />
-              <Navitem item="About" />
-              <Navitem item="Services" />
-              <Navitem item="Contact" />
-            </ul>
-          </div>
-        </nav>
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul className="navbar-nav ms-auto">
+                <Navitem item="Home" />
+                <Navitem item="About" />
+                <Navitem item="Services" />
+                <Navitem item="Contact" />
+              </ul>
+            </div>
+          </nav>
       </>
     );
 }
