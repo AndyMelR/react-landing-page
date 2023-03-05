@@ -25,6 +25,10 @@ body {
     padding-left: 15px;
 }
 
+.navbar-nav {
+    padding-right: 11px;
+}
+
 .jumbotron {
     background: #dee2e6;
     display: flex;
