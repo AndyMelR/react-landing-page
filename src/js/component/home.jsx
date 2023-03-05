@@ -5,8 +5,6 @@ import Cards from "./cards.jsx";
 import Footer from "./footer.jsx";
 import "../../styles/index.css";
 
-
-
 //create your first component
 
 const Home = () => {
@@ -22,7 +20,6 @@ const Home = () => {
 			<div>
 				<Footer />
 			</div>
-    	
 		</>
 	);
 };
