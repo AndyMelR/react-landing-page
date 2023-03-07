@@ -20,6 +20,7 @@ body {
 #navbar-container {
     padding-left: 5%;
     padding-right: 5%;
+    background-image: url(../img/hero_banner4.png);
 }
 .navbar-brand {
     padding-left: 15px;
@@ -38,6 +39,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    color:white;
 
 }
 
@@ -47,6 +49,7 @@ body {
     grid-gap: 10px;
     margin-bottom: 2%;
 }
+
 
 .card-title {
 text-align: center;

@@ -1,4 +1,12 @@
 import React from "react";
+import image1 from "../../img/image1.jpg";
+import image2 from "../../img/image2.jpg";
+import image3 from "../../img/image3.jpg";
+import bananabread from "../../img/bananabread.jpg";
+import image5 from "../../img/image5.jpg";
+import image6 from "../../img/image6.jpg";
+import boda from "../../img/boda.jpg";
+
 
 
 // const Body = (props) => {
@@ -35,28 +43,28 @@ const Cards = () => {
         <>
         <div className="card-container">
             <Card
-                image="https://via.placeholder.com/500x325"
+                image={image2}
                 title="First Title"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
                 buttonText="Find Out More!"
             />
 
             <Card
-                image="https://via.placeholder.com/500x325"
+                image={image5}
                 title="Second Title"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
                 buttonText="Find Out More!"
             />
 
             <Card
-                image="https://via.placeholder.com/500x325"
+                image={boda}
                 title="Third Title"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
                 buttonText="Find Out More!"
             />
 
             <Card
-                image="https://via.placeholder.com/500x325"
+                image={image6}
                 title="Fourth Title"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
                 buttonText="Find Out More!"
