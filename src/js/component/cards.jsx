@@ -31,7 +31,7 @@ const Card = (props) => {
                     <p className="card-text">{props.text}</p>                  
                 </div>
                 <div className="card-footer">
-                 <a href="#" className="btn btn-primary">{props.buttonText}</a>
+                 <a href="#" className="btn btn-footer">{props.buttonText}</a>
                 </div>
             </div>
       </>

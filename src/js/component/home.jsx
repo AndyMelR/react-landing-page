@@ -13,7 +13,7 @@ const Home = () => {
 			<div>
 			<Navbar/>
 			</div>
-			<div class="container" id="container-body">
+			<div className="container" id="container-body">
 				<Jumbotron />
 				<Cards />
 			</div>

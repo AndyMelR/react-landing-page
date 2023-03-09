@@ -60,9 +60,13 @@
 		"prop-types": "^15.7.2",
 		"query-string": "^7.0.1",
 		"react": "^17.0.2",
+		"react-color": "^2.19.3",
 		"react-dom": "^17.0.2",
 		"react-polyfills": "0.0.1",
 		"react-router": "^6.0.2",
-		"styled-components": "^5.3.8"
+		"styled-components": "^5.3.8",
+		"bootstrap": "^5.2.0",
+		"jquery": "^3.6.0",
+		"popper.js": "^1.16.1"
 	}
 }

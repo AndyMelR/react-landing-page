@@ -10,7 +10,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-     <div className="container-fluid footer bg-dark">
+     <div className="container-fluid footer ">
      <div className="footer-text">
         <p>Copyright@ Your Website 2019</p>
         </div>

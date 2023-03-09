@@ -1,36 +1,33 @@
 import React from "react";
 import styled from "styled-components";
-
-
+import logo_completo from "../../img/logo_completo.png"
 
 const Brand = (props) => {
 
   return (
     <>
-     <img src={props.logo} alt="Logo" className="logo" />
+     <img src={props.logo} alt="Logo" className="logo" style={{height: 80, width:170}} />
     </>
   )
-
 }
 
 const NavitemHome = (props) => {
   return (
     <>
       <li className="nav-item active">
-        <a class="nav-link" href="">
+        <a className="nav-link" href="">
           {props.item}
         </a>
       </li>
     </>
   );
-
 }
 
 const Navitem = (props) => {
   return (
     <>
       <li className="nav-item">
-      <a class="nav-link" href="#">{props.item}<span class="sr-only">(current)</span></a>
+      <a className="nav-link" href="#">{props.item}<span className="sr-only">(current)</span></a>
       </li>
     </>
   );
@@ -38,12 +35,11 @@ const Navitem = (props) => {
 }
 
 
-
 const ToggleButton = () =>{
   return(
     <>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
     </>
   )
@@ -54,12 +50,14 @@ const ToggleButton = () =>{
 // }
 
 const Navbar = () => {
+  
     return (
       <>
-        <nav id="navbar-container" className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-          {/* <Brand logo={logo}/> */}
+        <nav id="navbar-container" className="navbar fixed-top navbar-expand-lg"
+         >
+          <span style={{marginLeft: 45}}><Brand logo={logo_completo}/></span>
           <ToggleButton />
-            <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div className="collapse navbar-bs-collapse" id="navbarTogglerDemo01">
               <ul className="navbar-nav ms-auto">
                 <NavitemHome item="Home"/>
                 <Navitem item="About" />
@@ -73,9 +71,6 @@ const Navbar = () => {
     );
 }
 
+
+
 export default Navbar;
-
-// const NavContainer = styled.`
-
-
-// `

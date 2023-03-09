@@ -20,7 +20,8 @@ body {
 #navbar-container {
     padding-left: 5%;
     padding-right: 5%;
-    background-image: url(../img/hero_banner4.png);
+    background-color: #393f47;
+   
 }
 .navbar-brand {
     padding-left: 15px;
@@ -28,10 +29,20 @@ body {
 
 .navbar-nav {
     padding-right: 11px;
+    
 }
 
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color:#e8c16f;
+}
+
+
 .jumbotron {
-    background: #dee2e6;
     display: flex;
     height: 400px;
     padding-left: 2%;
@@ -40,7 +51,18 @@ body {
     justify-content: center;
     align-items: flex-start;
     color:white;
+    margin-top: 40px;
+    mask-image: -moz-linear-gradient(rgba(0, 0, 0, .75));
+}
 
+#be-wild {
+    color: #393f47;
+    font-size: 5rem;
+}
+
+#stay-healthy {
+    color: #f6f4f0;
+    font-size: 4rem;
 }
 
 .card-container {
@@ -63,6 +85,21 @@ text-align: center;
     justify-content: center;
 }
 
+.btn-footer, .btn-jumbo {
+    background-color: #e8c16f;
+}
+
+.btn-footer:hover, .btn-jumbo:hover{
+    background-color: #393f47;
+}
+.btn-footer:active, .btn-footer:hover {
+    color:white;
+}
+
+.btn-footer:active, .btn-jumbo:active{
+    background-color: #e5b03e;
+}
+
 @media (max-width: 500px) {
     .card-container {
       grid-template-columns: repeat(1, 1fr);
@@ -81,4 +118,5 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    background-color: #393f47;
   }
