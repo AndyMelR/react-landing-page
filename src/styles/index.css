@@ -21,10 +21,12 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     background-color: #393f47;
+    opacity: 0.9;
    
 }
 .navbar-brand {
     padding-left: 15px;
+    padding-top: 5px;
 }
 
 .navbar-nav {
@@ -52,17 +54,18 @@ body {
     align-items: flex-start;
     color:white;
     margin-top: 40px;
-    mask-image: -moz-linear-gradient(rgba(0, 0, 0, .75));
+    
+  
 }
 
 #be-wild {
     color: #393f47;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 #stay-healthy {
     color: #f6f4f0;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .card-container {
@@ -83,6 +86,7 @@ text-align: center;
 .card-footer {
     display:flex;
     justify-content: center;
+    background-color: #393f47;
 }
 
 .btn-footer, .btn-jumbo {

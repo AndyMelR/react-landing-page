@@ -14,7 +14,7 @@ const Jumbotron = () => {
             backgroundSize:"cover"
              }}>
                     <h1 className="display-4"><span id="stay-healthy">Stay Healthy.</span> <span><strong id="be-wild">Be Wild !</strong></span> </h1>
-                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce quis quam quis turpis dictum vulputate. Duis malesuada ipsum at nulla ullamcorper, quis laoreet dolor tempor.</p>
+                    <p className="lead">Repostería sin límites, saludable y deliciosa - Bocagua</p>
                     <p className="cta">
                         <a className="btn btn-jumbo btn-lg" href="#" role="button">Cuéntame mas!</a>
                     </p>

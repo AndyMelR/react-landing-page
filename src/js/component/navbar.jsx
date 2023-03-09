@@ -6,7 +6,7 @@ const Brand = (props) => {
 
   return (
     <>
-     <img src={props.logo} alt="Logo" className="logo" style={{height: 80, width:170}} />
+     <img src={props.logo} alt="Logo" className="logo" style={{height: 85, width:175}} />
     </>
   )
 }
@@ -55,9 +55,9 @@ const Navbar = () => {
       <>
         <nav id="navbar-container" className="navbar fixed-top navbar-expand-lg"
          >
-          <span style={{marginLeft: 45}}><Brand logo={logo_completo}/></span>
+          <span style={{marginLeft: 45, paddingTop:3}}><Brand logo={logo_completo}/></span>
           <ToggleButton />
-            <div className="collapse navbar-bs-collapse" id="navbarTogglerDemo01">
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
               <ul className="navbar-nav ms-auto">
                 <NavitemHome item="Home"/>
                 <Navitem item="About" />
